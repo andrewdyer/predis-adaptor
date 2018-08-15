@@ -1,5 +1,6 @@
 # Redis Adaptor
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6b9148b403e94cbabbc18abf0c667165)](https://www.codacy.com/app/andrewdyer/redis-adaptor?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=andrewdyer/redis-adaptor&amp;utm_campaign=Badge_Grade)
 [![Latest Stable Version](https://poser.pugx.org/andrewdyer/redis-adaptor/version)](https://packagist.org/packages/andrewdyer/redis-adaptor)
 [![Latest Unstable Version](https://poser.pugx.org/andrewdyer/redis-adaptor/v/unstable)](//packagist.org/packages/andrewdyer/redis-adaptor)
 [![License](https://poser.pugx.org/andrewdyer/redis-adaptor/license)](https://packagist.org/packages/andrewdyer/redis-adaptor)
