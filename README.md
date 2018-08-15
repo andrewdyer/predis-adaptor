@@ -36,10 +36,10 @@ composer require andrewdyer/redis-adaptor
 <?php
 
 $cache = new \Anddye\Cache\RedisAdaptor([
-    'host' => '',
-    'password' => '',
-    'port' => '',
-    'scheme' => '',
+    'host'      => '',
+    'password'  => '',
+    'port'      => '',
+    'scheme'    => '',
 ]);
 ```
 
@@ -47,10 +47,10 @@ $cache = new \Anddye\Cache\RedisAdaptor([
 
 | Method | Type | Default | Description |
 | --- | --- | --- | --- |
-| `host` | string | 127.0.0.1 | IP or hostname of the target server.  |
-| `password` | string | not set | Accepts a value used to authenticate with a Redis server protected by password with the `AUTH` command. |
-| `port` | string | 6379 | TCP/IP port of the target server. |
-| `scheme` | string | tcp | Specifies the protocol used to communicate with an instance of Redis. |
+| host | string | 127.0.0.1 | IP or hostname of the target server.  |
+| password | string | not set | Accepts a value used to authenticate with a Redis server protected by password with the `AUTH` command. |
+| port | string | 6379 | TCP/IP port of the target server. |
+| scheme | string | tcp | Specifies the protocol used to communicate with an instance of Redis. |
 
 ### Put
 
