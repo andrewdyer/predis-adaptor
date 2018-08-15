@@ -1,0 +1,30 @@
+{
+    "name": "andrewdyer/redis-adaptor",
+    "description": "A helper for caching slow operations using Redis.",
+    "type": "library",
+    "keywords": [],
+    "homepage": "https://github.com/andrewdyer/redis-adaptor",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Dyer",
+            "email": "andrewdyer@outlook.com",
+            "homepage": "http://andrewdyer.rocks",
+            "role": "developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/andrewdyer/redis-adaptor.git"
+    },
+    "require": {
+        "php": ">=5.3.9",
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anddye\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
