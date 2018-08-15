@@ -46,7 +46,7 @@ $cache = new \Anddye\Cache\RedisAdaptor([
 
 ### Supported Options
 
-| Method | Type | Default | Description |
+| Option | Type | Default | Description |
 | --- | --- | --- | --- |
 | host | string | 127.0.0.1 | IP or hostname of the target server.  |
 | password | string | not set | Accepts a value used to authenticate with a Redis server protected by password with the `AUTH` command. |
