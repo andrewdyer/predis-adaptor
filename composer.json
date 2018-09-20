@@ -1,9 +1,9 @@
 {
-    "name": "andrewdyer/redis-adaptor",
+    "name": "andrewdyer/predis-adaptor",
     "description": "A helper for caching slow operations using Redis.",
     "type": "library",
     "keywords": [],
-    "homepage": "https://github.com/andrewdyer/redis-adaptor",
+    "homepage": "https://github.com/andrewdyer/predis-adaptor",
     "license": "MIT",
     "authors": [
         {
@@ -14,7 +14,7 @@
         }
     ],
     "support": {
-        "source": "https://github.com/andrewdyer/redis-adaptor.git"
+        "source": "https://github.com/andrewdyer/predis-adaptor.git"
     },
     "require": {
         "php": ">=5.3.9",
