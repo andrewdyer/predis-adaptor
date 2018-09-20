@@ -81,7 +81,6 @@ unset($cache['my_key'])
 ```php
 $bool = $cache->exists('my_key');
 $bool = isset($cache->my_key);
-$bool = isset($cache['my_key']);
 ```
 
 #### Get
@@ -89,7 +88,6 @@ $bool = isset($cache['my_key']);
 ```php
 $value = $cache->get('my_key');
 $value = $cache->my_key;
-$value = $cache['my_key'];
 ```
 
 #### Put
@@ -97,7 +95,6 @@ $value = $cache['my_key'];
 ```php
 $cache->put('my_key', 'my_value');
 $cache->my_key = 'my_value';
-$cache['my_key'] = 'my_value';
 ```
 
 #### Remember
@@ -112,3 +109,4 @@ $value = $cache->remember('my_key', 10, function () {
 
 * [Redis](http://redis.io/)
 * [Predis](https://github.com/nrk/predis)
+* [Install and config Redis on Mac OS X via Homebrew](https://medium.com/@petehouston/install-and-config-redis-on-mac-os-x-via-homebrew-eb8df9a4f298)
