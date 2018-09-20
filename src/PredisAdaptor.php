@@ -6,6 +6,10 @@ use Predis\Client as Predis;
 
 /**
  * Class PredisAdaptor.
+ *
+ * @author Andrew Dyer <andrewdyer@outlook.com>
+ *
+ * @see https://github.com/andrewdyer/predis-adaptor
  */
 class PredisAdaptor
 {
@@ -16,7 +20,7 @@ class PredisAdaptor
     protected $host = '127.0.0.1';
 
     /** @var string */
-    protected $password = '';
+    protected $password = null;
 
     /** @var string */
     protected $port = '6379';
@@ -94,23 +98,23 @@ class PredisAdaptor
     }
 
     /**
-     * 
      * @param string $key
-     * @return type
+     *
+     * @return bool
      */
-    public function delete(string $key)
+    public function delete(string $key): bool
     {
-        return $this->client->del($key);
+        return (bool) $this->client->del($key);
     }
 
     /**
-     * 
      * @param string $key
-     * @return type
+     *
+     * @return bool
      */
-    public function exists(string $key)
+    public function exists(string $key): bool
     {
-        return $this->client->exists($key);
+        return (bool) $this->client->exists($key);
     }
 
     /**
