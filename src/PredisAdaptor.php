@@ -1,13 +1,13 @@
 <?php
 
-namespace Anddye\Cache;
+namespace Anddye;
 
 use Predis\Client as Predis;
 
 /**
- * Class RedisAdaptor.
+ * Class PredisAdaptor.
  */
-class RedisAdaptor
+class PredisAdaptor
 {
     /** @var Predis */
     protected $client;
@@ -45,14 +45,72 @@ class RedisAdaptor
 
     /**
      * @param string $key
+     *
+     * @return mixed
+     */
+    public function __get(string $key)
+    {
+        return $this->get($key);
+    }
+
+    /**
+     * @param string $key
+     *
+     * @return bool
+     */
+    public function __isset(string $key)
+    {
+        return $this->exists($key);
+    }
+
+    /*
+     * @param string $key
      * @param mixed  $value
-     * @param int    $minutes optional
      *
      * @return type
      */
-    public function put(string $key, $value, int $minutes = 10)
+
+    public function __set(string $key, $value)
     {
-        return $this->client->setex($key, (int) $minutes * 60, $value);
+        return $this->put($key, $value);
+    }
+
+    /**
+     * @param string $key
+     *
+     * @return bool
+     */
+    public function __unset(string $key)
+    {
+        return $this->delete($key);
+    }
+
+    /**
+     * @return Predis
+     */
+    public function client(): Predis
+    {
+        return $this->client;
+    }
+
+    /**
+     * 
+     * @param string $key
+     * @return type
+     */
+    public function delete(string $key)
+    {
+        return $this->client->del($key);
+    }
+
+    /**
+     * 
+     * @param string $key
+     * @return type
+     */
+    public function exists(string $key)
+    {
+        return $this->client->exists($key);
     }
 
     /**
@@ -63,6 +121,18 @@ class RedisAdaptor
     public function get(string $key)
     {
         return $this->client->get($key);
+    }
+
+    /**
+     * @param string $key
+     * @param mixed  $value
+     * @param int    $minutes optional
+     *
+     * @return type
+     */
+    public function put(string $key, $value, int $minutes = 10)
+    {
+        return $this->client->setex($key, (int) $minutes * 60, $value);
     }
 
     /**
