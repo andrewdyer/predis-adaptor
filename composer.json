@@ -2,7 +2,7 @@
     "name": "andrewdyer/predis-adaptor",
     "description": "A helper for caching slow operations using Redis.",
     "type": "library",
-    "keywords": [],
+    "keywords": ["php", "redis", "predis", "adaptor", "framework-agnostic"],
     "homepage": "https://github.com/andrewdyer/predis-adaptor",
     "license": "MIT",
     "authors": [
