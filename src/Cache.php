@@ -1,17 +1,15 @@
 <?php
 
-namespace Anddye;
+namespace Anddye\PredisAdaptor;
 
 use Predis\Client as Predis;
 
 /**
- * Class PredisAdaptor.
+ * Class Cache.
  *
  * @author Andrew Dyer <andrewdyer@outlook.com>
- *
- * @see https://github.com/andrewdyer/predis-adaptor
  */
-class PredisAdaptor
+class Cache
 {
     /** @var Predis */
     protected $client;

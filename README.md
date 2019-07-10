@@ -38,7 +38,7 @@ composer require andrewdyer/predis-adaptor
 ```php
 <?php
 
-$cache = new Anddye\PredisAdaptor([
+$cache = new Anddye\PredisAdaptor\Cache([
     'host'      => '',
     'password'  => '',
     'port'      => '',
