@@ -1,13 +1,12 @@
 # Predis Adaptor
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6b9148b403e94cbabbc18abf0c667165)](https://www.codacy.com/app/andrewdyer/predis-adaptor?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=andrewdyer/predis-adaptor&amp;utm_campaign=Badge_Grade)
-[![Latest Stable Version](https://poser.pugx.org/andrewdyer/predis-adaptor/version)](https://packagist.org/packages/andrewdyer/predis-adaptor)
-[![Latest Unstable Version](https://poser.pugx.org/andrewdyer/predis-adaptor/v/unstable)](//packagist.org/packages/andrewdyer/predis-adaptor)
-[![License](https://poser.pugx.org/andrewdyer/predis-adaptor/license)](https://packagist.org/packages/andrewdyer/predis-adaptor)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2844c953cdf745ec98c470c0731b733b)](https://www.codacy.com/app/andrewdyer/predis-adaptor?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=andrewdyer/predis-adaptor&amp;utm_campaign=Badge_Grade)
+[![Latest Stable Version](https://poser.pugx.org/andrewdyer/predis-adaptor/v/stable)](https://packagist.org/packages/andrewdyer/predis-adaptor)
 [![Total Downloads](https://poser.pugx.org/andrewdyer/predis-adaptor/downloads)](https://packagist.org/packages/andrewdyer/predis-adaptor)
 [![Daily Downloads](https://poser.pugx.org/andrewdyer/predis-adaptor/d/daily)](https://packagist.org/packages/andrewdyer/predis-adaptor)
 [![Monthly Downloads](https://poser.pugx.org/andrewdyer/predis-adaptor/d/monthly)](https://packagist.org/packages/andrewdyer/predis-adaptor)
-[![composer.lock available](https://poser.pugx.org/andrewdyer/predis-adaptor/composerlock)](https://packagist.org/packages/andrewdyer/predis-adaptor)
+[![Latest Unstable Version](https://poser.pugx.org/andrewdyer/predis-adaptor/v/unstable)](https://packagist.org/packages/andrewdyer/predis-adaptor)
+[![License](https://poser.pugx.org/andrewdyer/predis-adaptor/license)](https://packagist.org/packages/andrewdyer/predis-adaptor)
 
 A helper for caching slow operations using Redis.
 
