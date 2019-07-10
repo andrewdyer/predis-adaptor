@@ -1,18 +1,16 @@
 <?php
 
-use Anddye\PredisAdaptor;
+use Anddye\PredisAdaptor\Cache;
 use PHPUnit\Framework\TestCase;
 
 /**
  * Class PutTest.
  *
  * @author Andrew Dyer <andrewdyer@outlook.com>
- *
- * @see https://github.com/andrewdyer/predis-adaptor
  */
 class PutTest extends TestCase
 {
-    /** @var PredisAdaptor */
+    /** @var Cache */
     protected $cache;
 
     /**
@@ -20,7 +18,7 @@ class PutTest extends TestCase
      */
     protected function setUp()
     {
-        $this->cache = new PredisAdaptor();
+        $this->cache = new Cache();
     }
 
     /**
