@@ -1,27 +1,12 @@
-# Predis Adaptor
+<h1 align="center">Predis Adaptor</h1>
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2844c953cdf745ec98c470c0731b733b)](https://www.codacy.com/app/andrewdyer/predis-adaptor?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=andrewdyer/predis-adaptor&amp;utm_campaign=Badge_Grade)
-[![Latest Stable Version](https://poser.pugx.org/andrewdyer/predis-adaptor/v/stable)](https://packagist.org/packages/andrewdyer/predis-adaptor)
-[![Total Downloads](https://poser.pugx.org/andrewdyer/predis-adaptor/downloads)](https://packagist.org/packages/andrewdyer/predis-adaptor)
-[![Daily Downloads](https://poser.pugx.org/andrewdyer/predis-adaptor/d/daily)](https://packagist.org/packages/andrewdyer/predis-adaptor)
-[![Monthly Downloads](https://poser.pugx.org/andrewdyer/predis-adaptor/d/monthly)](https://packagist.org/packages/andrewdyer/predis-adaptor)
-[![Latest Unstable Version](https://poser.pugx.org/andrewdyer/predis-adaptor/v/unstable)](https://packagist.org/packages/andrewdyer/predis-adaptor)
-[![License](https://poser.pugx.org/andrewdyer/predis-adaptor/license)](https://packagist.org/packages/andrewdyer/predis-adaptor)
+<p align="center">A helper for caching slow operations using Redis.</p>
 
-A helper for caching slow operations using Redis.
-
-## Index
-* [License](#license)
-* [Installation](#installation)
-* [Usage](#usage)
-    * [Supported Options](#supported-options)
-    * [Methods](#methods)
-        * [Delete](#delete)
-        * [Exists](#exists)
-        * [Get](#get)
-        * [Put](#put)
-        * [Remember](#remember)
-* [Useful Links](#useful-links)
+<p align="center">
+    <a href="https://packagist.org/packages/andrewdyer/predis-adaptor"><img src="https://poser.pugx.org/andrewdyer/predis-adaptor/downloads?style=for-the-badge" alt="Total Downloads"></a>
+    <a href="https://packagist.org/packages/andrewdyer/predis-adaptor"><img src="https://poser.pugx.org/andrewdyer/predis-adaptor/v?style=for-the-badge" alt="Latest Stable Version"></a>
+    <a href="https://packagist.org/packages/andrewdyer/predis-adaptor"><img src="https://poser.pugx.org/andrewdyer/predis-adaptor/license?style=for-the-badge" alt="License"></a>
+</p>
 
 ## License
 
