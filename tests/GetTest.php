@@ -16,7 +16,7 @@ class GetTest extends TestCase
     /**
      * Set Up.
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->cache = new Cache();
         $this->cache->client()->flushall();

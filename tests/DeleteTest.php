@@ -16,7 +16,7 @@ class DeleteTest extends TestCase
     /**
      * Set Up.
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->cache = new Cache();
     }
