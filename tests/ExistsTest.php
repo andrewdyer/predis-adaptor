@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 
 class ExistsTest extends TestCase
 {
-    protected $cache;
+    protected Cache $cache;
 
     protected function setUp(): void
     {

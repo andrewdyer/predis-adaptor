@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 
 class DeleteTest extends TestCase
 {
-    protected $cache;
+    protected Cache $cache;
 
     protected function setUp(): void
     {
