@@ -14,22 +14,22 @@ class ExistsTest extends TestCase
         $this->cache->put('validKey', 'my_value');
     }
 
-    public function testValidKeyExists()
+    public function testValidKeyExists(): void
     {
         $this->assertTrue($this->cache->exists('validKey'));
     }
 
-    public function testValidKeyExistsShorthand()
+    public function testValidKeyExistsShorthand(): void
     {
         $this->assertTrue(isset($this->cache->validKey));
     }
 
-    public function testInvalidKeyExists()
+    public function testInvalidKeyExists(): void
     {
         $this->assertFalse($this->cache->exists('invalidKey'));
     }
 
-    public function testInvalidKeyExistsShorthand()
+    public function testInvalidKeyExistsShorthand(): void
     {
         $this->assertFalse(isset($this->cache->invalidKey));
     }

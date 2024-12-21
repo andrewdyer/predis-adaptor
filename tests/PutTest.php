@@ -12,7 +12,7 @@ class PutTest extends TestCase
         $this->cache = new Cache();
     }
 
-    public function testPut()
+    public function testPut(): void
     {
         $this->cache->client()->flushall();
 
@@ -21,7 +21,7 @@ class PutTest extends TestCase
         $this->assertTrue($this->cache->exists('validKey'));
     }
 
-    public function testPutShorthand()
+    public function testPutShorthand(): void
     {
         $this->cache->client()->flushall();
 

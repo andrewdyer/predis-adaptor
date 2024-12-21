@@ -12,7 +12,7 @@ class DeleteTest extends TestCase
         $this->cache = new Cache();
     }
 
-    public function testDeleteValidKey()
+    public function testDeleteValidKey(): void
     {
         $this->cache->client()->flushall();
 
@@ -22,7 +22,7 @@ class DeleteTest extends TestCase
         $this->assertFalse($this->cache->exists('validKey'));
     }
 
-    public function testDeleteValidKeyShorthand()
+    public function testDeleteValidKeyShorthand(): void
     {
         $this->cache->client()->flushall();
 
@@ -32,7 +32,7 @@ class DeleteTest extends TestCase
         $this->assertFalse($this->cache->exists('validKey'));
     }
 
-    public function testDeleteInvalidKey()
+    public function testDeleteInvalidKey(): void
     {
         $this->cache->client()->flushall();
 
@@ -42,7 +42,7 @@ class DeleteTest extends TestCase
         $this->assertTrue($this->cache->exists('validKey'));
     }
 
-    public function testDeleteInvalidKeyShorthand()
+    public function testDeleteInvalidKeyShorthand(): void
     {
         $this->cache->client()->flushall();
 

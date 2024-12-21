@@ -14,17 +14,17 @@ class GetTest extends TestCase
         $this->cache->put('validKey', 'my_value');
     }
 
-    public function testGet()
+    public function testGet(): void
     {
         $this->assertEquals($this->cache->get('validKey'), 'my_value');
     }
 
-    public function testGetShorthand()
+    public function testGetShorthand(): void
     {
         $this->assertEquals($this->cache->validKey, 'my_value');
     }
 
-    public function testRememberGet()
+    public function testRememberGet(): void
     {
         $value = $this->cache->remember('validKey', 10, function () {
             return 'my_value';
