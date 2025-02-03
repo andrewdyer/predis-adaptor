@@ -3,7 +3,7 @@
 use Anddye\PredisAdaptor\Cache;
 use PHPUnit\Framework\TestCase;
 
-class ExistsTest extends TestCase
+final class ExistsTest extends TestCase
 {
     protected Cache $cache;
 

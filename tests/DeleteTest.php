@@ -3,7 +3,7 @@
 use Anddye\PredisAdaptor\Cache;
 use PHPUnit\Framework\TestCase;
 
-class DeleteTest extends TestCase
+final class DeleteTest extends TestCase
 {
     protected Cache $cache;
 
