@@ -1,12 +1,8 @@
-<h1 align="center">Predis Adaptor</h1>
+![Predis Adaptor](https://raw.githubusercontent.com/andrewdyer/andrewdyer/refs/heads/main/assets/images/covers/predis-adaptor.png)
 
-<p align="center">A helper for caching operations using Redis.</p>
+# 🗄️ Predis Adaptor
 
-<p align="center">
-    <a href="https://packagist.org/packages/andrewdyer/predis-adaptor"><img src="https://poser.pugx.org/andrewdyer/predis-adaptor/downloads?style=for-the-badge" alt="Total Downloads"></a>
-    <a href="https://packagist.org/packages/andrewdyer/predis-adaptor"><img src="https://poser.pugx.org/andrewdyer/predis-adaptor/v?style=for-the-badge" alt="Latest Stable Version"></a>
-    <a href="https://packagist.org/packages/andrewdyer/predis-adaptor"><img src="https://poser.pugx.org/andrewdyer/predis-adaptor/license?style=for-the-badge" alt="License"></a>
-</p>
+A simple framework-agnostic caching solution using Redis.
 
 ## 📄 License
 
