@@ -24,10 +24,12 @@ composer require andrewdyer/predis-adaptor
 
 ## 🚀 Getting Started
 
-```php
-<?php
+To start using Predis Adaptor, you need to initialize the cache by creating a new instance of the `Cache` class with the necessary configuration options.
 
-$cache = new Anddye\PredisAdaptor\Cache([
+```php
+use Anddye\PredisAdaptor\Cache;
+
+$cache = new Cache([
     'host'      => '',
     'password'  => '',
     'port'      => '',
