@@ -1,6 +1,6 @@
 <h1 align="center">Predis Adaptor</h1>
 
-<p align="center">A helper for caching slow operations using Redis.</p>
+<p align="center">A helper for caching operations using Redis.</p>
 
 <p align="center">
     <a href="https://packagist.org/packages/andrewdyer/predis-adaptor"><img src="https://poser.pugx.org/andrewdyer/predis-adaptor/downloads?style=for-the-badge" alt="Total Downloads"></a>
@@ -46,45 +46,49 @@ $cache = new Anddye\PredisAdaptor\Cache([
 
 ## 📖 Usage
 
-| Method | Description |
-| --- | --- |
-| `$cache->client()` |  |
-| `$cache->delete(string $key)` |  |
-| `$cache->exists(string $key)` |  |
-| `$cache->get(string $key)` |  |
-| `$cache->put(string $key, $value, int $minutes = 10)` |  |
-| `$cache->remember(string $key, int $minutes, callable $callback)` |  |
+### Client
+
+Returns the underlying Predis client instance.
+
+```php
+$client = $cache->client();
+```
 
 ### Delete
 
+Deletes the specified key from the cache.
+
 ```php
 $cache->delete('my_key');
-unset($cache->my_key);
-unset($cache['my_key'])
 ```
 
 ### Exists
 
+Checks if the specified key exists in the cache.
+
 ```php
 $bool = $cache->exists('my_key');
-$bool = isset($cache->my_key);
 ```
 
 ### Get
 
+Retrieves the value of the specified key from the cache.
+
 ```php
 $value = $cache->get('my_key');
-$value = $cache->my_key;
 ```
 
 ### Put
 
+Stores a value in the cache with the specified key.
+
 ```php
 $cache->put('my_key', 'my_value');
-$cache->my_key = 'my_value';
 ```
 
 ### Remember
+
+Retrieves the value of the specified key from the cache, or stores the result of the callback if the key does not exist.
 
 ```php
 $value = $cache->remember('my_key', 10, function () {
