@@ -12,6 +12,10 @@
 
 Licensed under the [MIT license](https://opensource.org/licenses/MIT) and is free for private or commercial projects.
 
+## ✨ Introduction
+
+Predis Adaptor provides a straightforward way to implement caching operations using Redis in any PHP application. The library offers an easy-to-use interface for storing, retrieving, and managing cached data, supports custom cache configurations, and provides flexible cache management methods.
+
 ## 📥 Installation
 
 ```bash
