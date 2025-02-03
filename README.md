@@ -12,13 +12,13 @@
 
 Licensed under the [MIT license](https://opensource.org/licenses/MIT) and is free for private or commercial projects.
 
-## Installation
+## 📥 Installation
 
 ```bash
 composer require andrewdyer/predis-adaptor
 ```
 
-## Usage
+## 🚀 Getting Started
 
 ```php
 <?php
@@ -40,8 +40,7 @@ $cache = new Anddye\PredisAdaptor\Cache([
 | port | string | 6379 | TCP/IP port of the target server. |
 | scheme | string | tcp | Specifies the protocol used to communicate with an instance of Redis. |
 
-
-### Methods
+## 📖 Usage
 
 | Method | Description |
 | --- | --- |
@@ -52,7 +51,7 @@ $cache = new Anddye\PredisAdaptor\Cache([
 | `$cache->put(string $key, $value, int $minutes = 10)` |  |
 | `$cache->remember(string $key, int $minutes, callable $callback)` |  |
 
-#### Delete
+### Delete
 
 ```php
 $cache->delete('my_key');
@@ -60,28 +59,28 @@ unset($cache->my_key);
 unset($cache['my_key'])
 ```
 
-#### Exists
+### Exists
 
 ```php
 $bool = $cache->exists('my_key');
 $bool = isset($cache->my_key);
 ```
 
-#### Get
+### Get
 
 ```php
 $value = $cache->get('my_key');
 $value = $cache->my_key;
 ```
 
-#### Put
+### Put
 
 ```php
 $cache->put('my_key', 'my_value');
 $cache->my_key = 'my_value';
 ```
 
-#### Remember
+### Remember
 
 ```php
 $value = $cache->remember('my_key', 10, function () {
