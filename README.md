@@ -8,9 +8,9 @@
     <a href="https://packagist.org/packages/andrewdyer/predis-adaptor"><img src="https://poser.pugx.org/andrewdyer/predis-adaptor/license?style=for-the-badge" alt="License"></a>
 </p>
 
-## License
+## 📄 License
 
-Licensed under MIT. Totally free for private or commercial projects.
+Licensed under the [MIT license](https://opensource.org/licenses/MIT) and is free for private or commercial projects.
 
 ## Installation
 
