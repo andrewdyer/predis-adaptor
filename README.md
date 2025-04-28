@@ -1,4 +1,4 @@
-![Predis Adaptor](https://raw.githubusercontent.com/andrewdyer/andrewdyer/refs/heads/main/assets/images/covers/predis-adaptor.png)
+![Predis Adaptor](https://raw.githubusercontent.com/andrewdyer/public-assets/refs/heads/main/images/covers/predis-adaptor.png)
 
 # 🗄️ Predis Adaptor
 
